@@ -1,0 +1,2 @@
+beginner_tutorials:quanser_controllers:quanser_description:transform
+-DCATKIN_DEVEL_PREFIX=/home/leco/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/leco/catkin_ws/install -G Unix Makefiles

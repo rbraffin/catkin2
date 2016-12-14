@@ -1,0 +1,8 @@
+prefix=/home/viki/catkin_ws/install
+
+Name: quanser
+Description: Description of quanser
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/viki/catkin_ws/install/lib 
+Requires: 

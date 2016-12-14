@@ -1,0 +1,13 @@
+<launch>
+
+  <arg name="pause" default="true"/>
+
+  <include file="$(find quanser_description)/launch/gazebo.launch">
+    <arg name="paused" value="$(arg paused)"/>
+  </include>
+
+  <rosparam file="$(find quanser_controllers)/config/bypass.yaml" command="load"/>
+
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="/quanser" args="joint_bloco_link1_effort_controller joint_link1_link2_effort_controller joint_state_controller"/>
+
+</launch>

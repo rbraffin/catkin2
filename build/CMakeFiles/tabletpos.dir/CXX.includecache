@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leco/catkin_ws/src/tabletpos/tabletpos.cpp
+ros/ros.h
+/home/leco/catkin_ws/src/tabletpos/ros/ros.h
+stdlib.h
+-
+string.h
+-
+signal.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+errno.h
+-
+sys/time.h
+-
+iostream
+-
+iomanip
+-
+protocol.h
+/home/leco/catkin_ws/src/tabletpos/protocol.h
+

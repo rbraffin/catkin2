@@ -1,0 +1,15 @@
+quanser:
+
+    joint_state_controller:
+      type: joint_state_controller/JointStateController
+      publish_rate: 100
+
+    junta1_joint_velocity_controller:
+      type: effort_controllers/JointVelocityController
+      joint: joint_bloco_link1
+      pid: {p: 0.0, i: 0.0, d: 0.0}
+
+    junta2_joint_velocity_controller:
+      type: effort_controllers/JointVelocityController
+      joint: joint_link1_link2
+      pid: {p: 0.0, i: 0.0, d: 0.0}

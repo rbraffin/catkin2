@@ -1,0 +1,14 @@
+<launch>
+
+  <arg name="paused" default="true"/>
+
+  <include file="$(find quanser_description)/launch/gazebo.launch">
+	<arg name="paused" value="$(arg paused)"/>
+  </include>
+
+  <rosparam file="$(find quanser_controllers)/config/joint_velocity.yaml" command="load"/>
+
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+    output="screen" ns="/mob" args="joint_state_controller joint_bloco_link1_velocity_controller joint_link1_link2_velocity_controller"/>
+
+</launch>

@@ -1,0 +1,14 @@
+quanser:
+
+    joint_state_controller:
+      type: joint_state_controller/JointStateController
+      publish_rate: 100
+      ns: /quanser
+
+    joint_bloco_link1_effort_controller:
+      type: effort_controllers/JointEffortController
+      joint: joint_bloco_link1
+
+    joint_link1_link2_effort_controller:
+      type: effort_controllers/JointEffortController
+      joint: joint_link1_link2

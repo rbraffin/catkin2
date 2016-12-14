@@ -1,0 +1,8 @@
+prefix=/home/leco/catkin_ws/devel
+
+Name: quanser_controllers
+Description: Description of quanser_controllers
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/leco/catkin_ws/devel/lib 
+Requires: 

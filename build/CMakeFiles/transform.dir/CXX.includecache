@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leco/catkin_ws/src/transform/transform.cpp
+ros/ros.h
+/home/leco/catkin_ws/src/transform/ros/ros.h
+math.h
+/home/leco/catkin_ws/src/transform/math.h
+

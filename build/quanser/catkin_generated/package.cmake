@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "quanser")
+set(quanser_MAINTAINER "rbraffin <rbraffin@gmail.com>, sgastal <sgastal@gmail.com>")
+set(quanser_DEPRECATED "")
+set(quanser_VERSION "0.0.0")
+set(quanser_BUILD_DEPENDS )
+set(quanser_RUN_DEPENDS )
+set(quanser_BUILDTOOL_DEPENDS "catkin")

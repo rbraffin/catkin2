@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/tabletpos.dir/tabletpos/tabletpos.cpp.o  -o tabletpos -rdynamic 
